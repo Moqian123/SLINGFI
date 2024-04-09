@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+mts_pool = "FXdkYrxybRLydDdRFpyzMXwzJTCBc78UrNVX36pDPS9j"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = ""
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

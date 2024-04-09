@@ -1,0 +1,9 @@
+.page-container {
+    background-blend-mode: multiply;
+    background-color: #f3f5fa;
+    background-image: url(../assets/imgs/bg1.png),url(../assets/imgs/bg2.png);
+    background-position: 100% 0,0 100%;
+    background-repeat: no-repeat;
+    background-size: auto 40%,100% auto;
+    min-height: calc(-88px + 100vh);
+}

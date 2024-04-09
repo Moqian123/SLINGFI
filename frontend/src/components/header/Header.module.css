@@ -1,0 +1,117 @@
+a {
+  text-decoration: none;
+}
+.head-logo {
+  display: flex;
+  align-items: center;
+}
+.logo-box {
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 3px 10px rgb(43, 19, 102, 0.49);
+  margin-right: 10px;
+}
+.App-logo {
+  height: 60px;
+  width: 60px;
+  float: left;
+}
+.head-logo h3 {
+  margin-bottom: 0;
+  color: white;
+    /* 设置文本的背景为线性渐变 */
+    background: linear-gradient(45deg, #ffc884, #512da8);
+    /* 使用 blend-mode 实现文本颜色与背景渐变颜色的混合 */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* 使用 color 作为遮罩，实际看到的是背景渐变 */
+    -webkit-text-fill-color: transparent;
+    /* 防止文本阴影遮挡背景渐变 */
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-size: 30px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.top-head {
+  height: 88px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+}
+.header-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.header-left{
+  display: flex;
+  align-items: center;
+}
+
+.head-menu {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  grid-gap:30px;
+  line-height: 46px;
+  white-space: nowrap;
+  margin-right: 30px;
+}
+.head-menu span {
+  display: inline-block;
+  padding: 0 16px;
+  color: rgb(51, 51, 51) !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+.head-menu span.on {
+  color: #fff !important;
+  font-weight: 600;
+  width: 100%;
+  background: #512da8 !important;
+  border-radius: 30px;
+}
+.head-right-btn {
+  display: flex;
+  align-items: center;
+  width: 151.33px;
+  background: rgb(183, 55, 55);
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  height: 45px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+.head-right-text {
+  display: inline-block;
+  width: 130px;
+  background: rgb(183, 55, 55);
+  border-radius: 20px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+  

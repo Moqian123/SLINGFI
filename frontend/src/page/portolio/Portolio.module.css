@@ -1,0 +1,9 @@
+
+.page-inner {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    min-height: calc(-88px + 100vh);
+    max-width: min(82.01%, 82.01%);
+    padding: 0px 0px 60px !important;
+}
